@@ -1,0 +1,19 @@
+{
+  "name": "multi-agent-swe-backend",
+  "version": "1.0.0",
+  "description": "Orchestrator + agents backend for Multi-Agent AI Software Engineer MVP",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "adm-zip": "^0.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "fs-extra": "^11.2.0",
+    "uuid": "^9.0.1"
+  }
+}
